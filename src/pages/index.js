@@ -1,16 +1,4 @@
-// import Head from 'next/head';
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <Head>
-//         <title>HubSpot Clone</title>
-//       </Head>
-//       <h1>Welcome to the HubSpot Clone</h1>
-//       <p>Your deal, company, and contact management system.</p>
-//     </div>
-//   );
-// }
+//src/pages/index.js
 
 import Navbar from '../components/Navbar';
 import styles from '../styles/Navbar.module.css';

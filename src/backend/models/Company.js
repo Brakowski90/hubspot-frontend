@@ -1,12 +1,24 @@
-//models/Company.js
+// //models/Company.js
 
 const mongoose = require('mongoose');
 
 const companySchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  email: { type: String, required: true },
-  phone: { type: String, required: true },
+  name: {
+    type: String,
+    required: true,
+  },
+  email: {
+    type: String,
+    required: true,
+  },
+  phone: {
+    type: String,
+    required: true,
+  },
+  picture: {
+    type: String,  
+    default: '', 
+  },
 });
 
-const Company = mongoose.model('Company', companySchema);
-module.exports = Company;
+module.exports = mongoose.model('Company', companySchema);

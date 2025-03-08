@@ -8,7 +8,7 @@ export default function HomePage() {
     <div className={styles.container}>
       <Navbar />
       <div className={styles.mainContent}>
-        <h1>Welcome to the HubSpot Clone</h1>
+        <h1>Welcome to the HubSpot Clone!</h1>
         <p>Your deal, company, and contact management system.</p>
       </div>
     </div>
